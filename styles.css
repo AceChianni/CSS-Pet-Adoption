@@ -176,6 +176,108 @@ nav a:hover {
   background-color: #ff7f00;
 }
 
+/* Gallery Styles */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Media Query for Large Screens */
+@media screen and (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  perspective: 1000px;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+/* Card Front Styles */
+
+.card-front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Card Back Styles */
+
+.card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Content Styles */
+
+h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}
+
+/* Contact Form Styles */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 10px;
+}
+
 h1 {
   margin-bottom: 20px;
 }
@@ -207,4 +309,20 @@ button {
 
 button:hover {
   background-color: #ff7f00;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: rgba(77, 77, 77, 0.8);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-info,
+.copyright {
+  margin-bottom: 10px;
 }
