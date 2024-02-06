@@ -112,7 +112,7 @@ h1 {
   margin: 20px 0;
   font-size: 36px;
   font-family: "Indie Flower", cursive;
-  color: #4d4d4d;
+  color: #FF8833;
 }
 
 h2 {
@@ -147,14 +147,6 @@ nav a {
 
 nav a:hover {
   background-color: #ffac33;
-  color: #4d4d4d;
-}
-
-main.fixed-background {
- margin: 0;
-  padding: 0;
-  font-family: "Quicksand", sans-serif;
-  background: url('https://images.unsplash.com/photo-1589112944342-7115fe90c015?q=80&w=2185&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat fixed;
   color: #4d4d4d;
 }
 
