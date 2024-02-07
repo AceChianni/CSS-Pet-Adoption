@@ -313,7 +313,7 @@ p {
 
 .question {
   background-color: #8b7463;
-  color: #fff;
+  color: #FF8833;
   padding: 10px;
   cursor: pointer;
 }
@@ -321,7 +321,8 @@ p {
 .answer {
   display: none;
   padding: 10px;
-  background-color: #e3d9c5;
+  color: #4F6D7A;
+  background-color: #d1a968;
 }
 
 
