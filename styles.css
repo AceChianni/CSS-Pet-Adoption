@@ -161,7 +161,7 @@ body.fixed-background {
   color: white;
 }
 
-.index-images-container {
+/* .index-images-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,8 +171,24 @@ body.fixed-background {
 .index-image {
   max-width: 50%;
   height: auto;
+} */
+
+.index-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
+.index-image {
+  width: 300px; 
+  height: auto;
+  margin: 0 10px; 
+}
+
+
+/*  */
 .adopt-now-button {
   width: 120px;
   height: 60px;
