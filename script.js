@@ -1,4 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
+
+
+  document.addEventListener("DOMContentLoaded", function () {
     const faqItems = document.querySelectorAll('.faq-item');
   
     faqItems.forEach((item) => {
@@ -6,11 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const answer = item.querySelector('.answer');
   
       question.addEventListener('click', function () {
-        // Toggle the 'active' class on the FAQ item
-        item.classList.toggle('active');
-  
-        // Toggle the display of the answer using the 'block' value
-        answer.style.display = answer.style.display === 'block' ? '' : 'block';
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
       });
     });
   });
