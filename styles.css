@@ -330,7 +330,19 @@ p {
   color: #555;
 }
 
+/* Collapsible menu styles */
+.answer {
+  display: none;
+  padding: 10px;
+  background-color: #ffd699; /* Light orange */
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
+/* Styles for the toggled state */
+.faq-item.active .answer {
+  display: block;
+} 
 /* Contact Form Styles */
 
 .contact-container {
