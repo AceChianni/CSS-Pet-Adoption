@@ -290,6 +290,47 @@ p {
   color: #AE5A01;
 }
 
+/* FAQ */
+.faq-page {
+  background-color: #e3d9c5;
+  color: #4d4d4d;
+}
+
+.faq-page a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+.faq-page a:hover {
+  color: #ffac33;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-page h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 36px;
+  font-family: "Indie Flower", cursive;
+  color: #4d4d4d;
+}
+
+.faq-page h3 {
+  color: #4285f4;
+}
+
+.faq-page p {
+  color: #555;
+}
+
+
 /* Contact Form Styles */
 
 .contact-container {
