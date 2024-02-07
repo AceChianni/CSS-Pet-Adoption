@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // Toggle the 'active' class on the FAQ item
         item.classList.toggle('active');
   
-        // Toggle the display of the answer
-        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        // Toggle the display of the answer using the 'block' value
+        answer.style.display = answer.style.display === 'block' ? '' : 'block';
       });
     });
   });
