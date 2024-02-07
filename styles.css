@@ -292,12 +292,12 @@ p {
 
 /* FAQ */
 .faq-page {
-  background-color: #e3d9c5;
-  color: #4d4d4d;
+  background-color: #d1a968;
+  color: #4f6d7a;
 }
 
 .faq-page a {
-  color: #4d4d4d;
+  color: #C0D6DF;
   text-decoration: none;
 }
 
@@ -319,22 +319,22 @@ p {
   margin: 20px 0;
   font-size: 36px;
   font-family: "Indie Flower", cursive;
-  color: #4d4d4d;
+  color: #FF8833;
 }
 
 .faq-page h3 {
-  color: #4285f4;
+  color: #975600;
 }
 
 .faq-page p {
-  color: #555;
+  color: #4f6d7a;
 }
 
 /* Collapsible menu styles */
 .answer {
   display: none;
   padding: 10px;
-  background-color: #ffd699; /* Light orange */
+  background-color: #D1A968; /
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -510,7 +510,7 @@ h3 {
 
 /* Footer Styles */
 .footer {
-  background-color: rgba(77, 77, 77, 0.8);
+  background-color: #C0D6DF;
   color: #fff;
   padding: 20px;
   text-align: center;
